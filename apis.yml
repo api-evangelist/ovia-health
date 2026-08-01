@@ -1,7 +1,27 @@
 aid: ovia-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ovia-health.png
 name: Ovia Health
-description: Ovia Health is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ovia Health (by Labcorp) is a digital women's and family health platform delivering
+  evidence-based programs, personalized data insights, and Care Team support across
+  reproductive health, fertility, pregnancy, postpartum, parenting, and menopause. It is
+  offered to individuals through consumer mobile apps (Ovia, Ovia Pregnancy, Ovia Fertility)
+  and to employers and health plans as a benefit, and its apps sync with consumer health
+  platforms including Apple Health and Google Fit. Ovia Health does not publish a public
+  developer API, developer portal, SDK, or machine-readable API specification; this profile
+  was added to the API Evangelist network as a portfolio lead and reflects the honest result
+  of an enrichment pass that found no public API surface, only a consumer/enterprise product.
 url: https://raw.githubusercontent.com/api-evangelist/ovia-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health
+- Digital Health
+- Womens Health
+- Femtech
+- Pregnancy
+- Fertility
+- Employee Benefits
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ovia-health-domain-security.yml
 - type: Website
   url: https://oviahealth.com/
+- type: PrivacyPolicy
+  url: https://oviahealth.com/privacy-policy/
+- type: TermsOfService
+  url: https://oviahealth.com/terms-of-use/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
