@@ -34,6 +34,9 @@ description: >-
   was added to the API Evangelist network as a portfolio lead and reflects the honest result
   of an enrichment pass that found no public API surface, only a consumer/enterprise product.
 url: https://raw.githubusercontent.com/api-evangelist/ovia-health/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Ovia Health does not publish a public developer API, developer portal, SDK, or machine-readable API specification; this profile was added to the API Evangelist network as a portfolio lead and reflects"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
